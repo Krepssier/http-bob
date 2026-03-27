@@ -13,6 +13,7 @@ figure {
   justify-content: center;
   font-family: system-ui, sans-serif;
   background: #1a1a2e;
+  overflow: hidden;
   border: 2px solid #bf5af2;
   box-shadow: 0 0 20px rgba(191, 90, 242, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
