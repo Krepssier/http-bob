@@ -28,6 +28,7 @@ const HTTP_CODES = {
   404: { reason: 'Not Found', video: '404' },
   405: { reason: 'Method Not Allowed', video: '405' },
   408: { reason: 'Request Timeout', video: '408' },
+  418: { reason: "I'm a teapot", video: '418' },
   429: { reason: 'Too Many Requests', video: '429' },
   497: { reason: '497 HTTP Request Sent to HTTPS Port', video: '497' },
   500: { reason: 'Internal Server Error', video: '500' },
