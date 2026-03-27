@@ -1,13 +1,3 @@
-/* const template = `
-  <figure>
-    <img alt="" />
-    <hgroup>
-      <h1></h1>
-      <p></p>
-    </hgroup>
-  </figure>
-`; */
-
 const template = `
   <figure>
     <video autoplay loop muted playsinline>
