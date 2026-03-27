@@ -51,7 +51,7 @@ class StatusHttp extends HTMLElement {
     this.#updateDisplay();
 
     this.addEventListener('click', () => {
-      window.location.href = '../coming-soon.html';
+      window.location.href = './coming-soon.html';
     });
   }
 
@@ -69,7 +69,7 @@ class StatusHttp extends HTMLElement {
     const codeEl = this.shadowRoot.querySelector('h1');
     const reasonEl = this.shadowRoot.querySelector('p');
 
-    image.src = `./assets/${info.image}`;
+    image.src = `./public/${info.image}`;
     image.alt = info.reason;
     codeEl.textContent = code;
     reasonEl.textContent = info.reason;

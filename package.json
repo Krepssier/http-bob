@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "servor ./src"
+    "dev": "servor ."
   },
   "devDependencies": {
     "servor": "^4.0.0"

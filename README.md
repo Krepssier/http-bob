@@ -23,12 +23,12 @@ pnpm run dev
 ## Project Structure
 
 ```
-├── src/
-│   ├── components/     # WebComponents
-│   ├── css/            # Global styles
-│   ├── assets/         # HTTP status GIFs
-│   ├── index.html      # Entry point
-│   └── main.js         # App initialization
+├── components/      # WebComponents
+├── css/             # Global styles
+├── public/          # Static assets (GIFs)
+├── index.html       # Entry point
+├── main.js          # App initialization
+├── coming-soon.html
 ├── package.json
 └── pnpm-lock.yaml
 ```
