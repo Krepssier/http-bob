@@ -25,9 +25,10 @@ figure:hover {
   border-color: #da8fff;
 }
 
-figure img {
+figure video {
   width: 350px;
   height: 350px;
+  object-fit: contain;
 }
 
 figure hgroup {
