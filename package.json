@@ -1,0 +1,13 @@
+{
+  "name": "http-bob",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "servor ./src"
+  },
+  "devDependencies": {
+    "servor": "^4.0.0"
+  }
+}
+
+

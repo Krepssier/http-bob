@@ -1,0 +1,80 @@
+:host {
+  display: inline-block;
+}
+
+figure {
+  margin: 0;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 550px;
+  justify-content: center;
+  font-family: system-ui, sans-serif;
+  background: #1a1a2e;
+  border: 2px solid #bf5af2;
+  box-shadow: 0 0 20px rgba(191, 90, 242, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+}
+
+figure:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px rgba(191, 90, 242, 0.4);
+  border-color: #da8fff;
+}
+
+figure img {
+  width: 350px;
+  height: 350px;
+}
+
+figure hgroup {
+  text-align: center;
+}
+
+figure h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #da8fff;
+  text-shadow: 0 0 10px rgba(218, 143, 255, 0.5);
+}
+
+figure p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #b0b0b0;
+  text-transform: capitalize;
+}
+
+:host(.color-cyan) figure {
+  border-color: #00d9ff;
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
+}
+
+:host(.color-cyan) figure:hover {
+  box-shadow: 0 0 30px rgba(0, 217, 255, 0.4);
+  border-color: #00ffea;
+}
+
+:host(.color-cyan) figure h1 {
+  color: #00ffea;
+  text-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+}
+
+:host(.color-orange) figure {
+  border-color: #ff9500;
+  box-shadow: 0 0 20px rgba(255, 149, 0, 0.2);
+}
+
+:host(.color-orange) figure:hover {
+  box-shadow: 0 0 30px rgba(255, 149, 0, 0.4);
+  border-color: #ffb340;
+}
+
+:host(.color-orange) figure h1 {
+  color: #ffb340;
+  text-shadow: 0 0 10px rgba(255, 179, 64, 0.5);
+}
