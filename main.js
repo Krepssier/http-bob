@@ -1,6 +1,6 @@
 import './components/StatusHttp.js';
 
-const HTTP_CODES = [100, 101, 200, 201, 202, 204, 208, 301, 302, 304, 400, 401, 403, 404, 405, 408, 418, 429, 497, 500, 501, 502, 503, 504];
+const HTTP_CODES = [100, 101, 102, 200, 201, 202, 204, 208, 301, 302, 304, 400, 401, 403, 404, 405, 408, 418, 429, 497, 500, 501, 502, 503, 504];
 
 const section = document.createElement('section');
 const colors = ['purple', 'cyan', 'orange'];

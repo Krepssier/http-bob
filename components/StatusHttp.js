@@ -14,6 +14,7 @@ const template = `
 const HTTP_CODES = {
   100: { reason: 'Continue', video: '100' },
   101: { reason: 'Switching Protocols', video: '101' },
+  102: { reason: 'Processing', video: '102' },
   200: { reason: 'OK', video: '200' },
   201: { reason: 'Created', video: '201' },
   202: { reason: 'Accepted', video: '202' },
